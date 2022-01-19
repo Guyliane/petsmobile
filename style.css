@@ -245,10 +245,11 @@ nav{
     text-align: center;
     width: 100%;
     padding-bottom: 150px;
+    border-bottom: 1px dotted #777;
 }
 
 .container-about h2{
-    padding: 0 0 20px;
+    padding: 50px 0 40px;
 }
 
 .card-about{
