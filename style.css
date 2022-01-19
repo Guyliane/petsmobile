@@ -244,7 +244,7 @@ nav{
     margin-top: 70px;
     text-align: center;
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .container-about h2{
@@ -279,9 +279,6 @@ nav{
 
 .container-formations{
     display: flex;
-    width: 80%;
-    height: 500px;
-    margin: 0 auto;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -373,14 +370,13 @@ nav{
     position: relative;
     padding-bottom: 100px;
     overflow: hidden;
-    padding-top: 100px;
 }
 .section-contact h2 {
     text-align: center;
     color: #333;
     font-size: 48px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     padding: 70px 0 0 0;
 }
 
