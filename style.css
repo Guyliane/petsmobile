@@ -15,8 +15,8 @@ body {
 }
 
 
-.container-page-accueil{
-    background-image: url("ressources/Vector5.svg");
+.container-page-accueil {
+    background-image: url("./ressources/Vector5.svg");
     background-size: cover;
     background-repeat: no-repeat;
     /* overflow: hidden; */
