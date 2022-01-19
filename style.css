@@ -233,8 +233,18 @@ nav{
 
 @media screen and (max-width : 920px) {
     .accueil {
-        flex-direction: column-reverse;
+        flex-direction: column;
+        overflow: hidden;
     }
+
+    .text-accueil button{
+        display: none;
+    }
+
+    .text-accueil p{
+        margin-top: 40px;
+    }
+
 }
 /* #endregion */
 
@@ -305,6 +315,18 @@ nav{
 
 .container-formations .card p{
     font-size: 15px;
+}
+
+@media screen and (max-width : 920px) {
+
+    .container-vector{
+        display: none;
+    }
+    
+    .container-vector-gauche{
+        display: none;
+    }
+    
 }
 
 /* #endregion */
@@ -463,6 +485,14 @@ textarea {
     .container-form {
         padding-left: 0;
     }
+}
+
+@media screen and (max-width : 920px) {
+
+    .img-chat{
+        display: none;
+    }
+    
 }
 
 
