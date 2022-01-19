@@ -318,7 +318,15 @@ nav{
     font-size: 15px;
 }
 
-@media screen and (max-width : 920px) {
+@media screen and (max-width : 1610px) {
+
+    .container-os{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width : 1390px) {
 
     .container-vector{
         display: none;
@@ -335,10 +343,6 @@ nav{
     .card-about{
         width: 600px;
     }
-
-    .container-os{
-        display: none;
-    }
     
 }
 
@@ -346,6 +350,18 @@ nav{
 
     .card-about{
         width: 450px;
+    }
+    
+}
+
+@media screen and (max-width : 470px) {
+
+    .card-about{
+        width: 350px;
+    }
+
+    .cercle-photo {
+        display: none;
     }
     
 }
