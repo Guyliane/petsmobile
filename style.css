@@ -360,6 +360,10 @@ nav{
         width: 350px;
     }
 
+    .card-about p{
+        font-size: 10px;
+    }
+
     .cercle-photo {
         display: none;
     }
