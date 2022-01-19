@@ -263,10 +263,11 @@ nav{
 }
 
 .card-about{
+    display: block;
     width: 800px;
     height: auto;
+    margin: 0 auto;
     background-color: #FFEF02;
-    margin: 0 auto; 
     padding: 20px; 
     border-radius: 20px;
 }
@@ -325,6 +326,26 @@ nav{
     
     .container-vector-gauche{
         display: none;
+    }
+    
+}
+
+@media screen and (max-width : 825px) {
+
+    .card-about{
+        width: 600px;
+    }
+
+    .container-os{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width : 690px) {
+
+    .card-about{
+        width: 450px;
     }
     
 }
