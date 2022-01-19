@@ -246,6 +246,19 @@ nav{
     }
 
 }
+
+@media screen and (max-width : 560px) {
+    .image-accueil img{
+        width: 337px;
+        height: 632px;
+    }
+
+    .image-accueil{
+        width: 337px;
+        height: 632px;
+    
+    }
+}
 /* #endregion */
 
 /* #region  ABOUT */
