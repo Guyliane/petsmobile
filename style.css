@@ -269,6 +269,7 @@ nav{
     width: 100%;
     padding-bottom: 150px;
     border-bottom: 1px dotted #777;
+    overflow: hidden;
 }
 
 .container-about h2{
@@ -329,14 +330,6 @@ nav{
 
 .container-formations .card p{
     font-size: 15px;
-}
-
-@media screen and (max-width : 1610px) {
-
-    .container-os{
-        display: none;
-    }
-    
 }
 
 @media screen and (max-width : 1390px) {
